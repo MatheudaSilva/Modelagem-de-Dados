@@ -1,0 +1,10 @@
+-- π model, price (σ price < 1000 (PC))
+-- π model, price, screen (σ screen > 15 τ price desc (Laptop))
+-- π model ( σ ¬color ∧ price < 200 (Printer))
+-- π model (σ speed > 2.5 (PC))
+-- σ ram ≥ 8192 τ price asc (Laptop)
+-- π type, model (σ type ≠ 'Printer' (Product))
+-- π model (σ hd > 500 τ model asc (PC))
+-- Não é possível fazer
+-- γ color,type; count(type)→ tipos (σ color = True (Printer))
+-- π model, speed (σ screen ≥ 17 (Laptop))
